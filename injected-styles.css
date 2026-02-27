@@ -1,0 +1,28 @@
+/* Injected styles for Roblox Theme Studio */
+
+/* Make Roblox content more readable with custom backgrounds */
+#roblox-theme-studio-bg,
+#roblox-theme-studio-overlay {
+  /* Styles are applied via JS for better control */
+}
+
+/* Optional: Enhance contrast for better readability */
+body.roblox-theme-active {
+  /* Add any global style adjustments here if needed */
+}
+
+/* Ensure important UI elements stay visible */
+.nav-header,
+.page-header,
+.content-header {
+  position: relative;
+  z-index: 10;
+}
+
+/* Add subtle backdrop blur to cards for better readability */
+.roblox-theme-active .game-card,
+.roblox-theme-active .profile-card,
+.roblox-theme-active .friend-card {
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
